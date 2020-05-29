@@ -446,6 +446,7 @@
 .card-sub {
     padding: 8px 24px;
     border: 1px solid #E5E5E5;
+    cursor: pointer;
 }
 
 .card_sub-header {
@@ -479,6 +480,11 @@
 .card_sub-body-content {
     flex: 1;
     margin-right: 18px;
+}
+
+.card_sub-body-content a{
+    text-decoration: none;
+    color: #085ED4;
 }
 
 .card_sub-body-img {
