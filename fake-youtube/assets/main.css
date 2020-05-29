@@ -360,6 +360,11 @@
     border-bottom: 3px solid #DCDCDC;
 }
 
+.content-data_container:last-child {
+    border: none;
+    margin: 30px 0;
+}
+
 .content-data_title {
     font-size: 2rem;
     font-weight: 700;
@@ -406,6 +411,90 @@
     color: #606060;
 }
 
+.search-icon {
+    display: none;
+}
+
+.card-footer_name {
+    line-height: 1.6rem;
+    height: 1.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .card-footer_view div {
     display: inline-block;
+}
+
+.btn-down {
+    display: flex;
+    height: 32px;
+    margin-top: -30px;
+    align-items: center;
+}
+
+.btn-down:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-down i {
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.card-sub {
+    padding: 8px 24px;
+    border: 1px solid #E5E5E5;
+}
+
+.card_sub-header {
+    font-size: 1.2rem;
+    color: #606060;
+    display: flex;
+    align-items: center;
+}
+
+.card_sub-header-avatar {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 12px;
+    overflow: hidden;
+}
+
+.card_sub-header-avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.card_sub-body {
+    margin-top: 12px;
+    display: flex;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    height: 130px;
+}
+
+.card_sub-body-content {
+    flex: 1;
+    margin-right: 18px;
+}
+
+.card_sub-body-img {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card_sub-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    color: #606060;
+}
+
+.card_sub-footer-title {
+    margin-right: 12px;
 }
