@@ -1,0 +1,53 @@
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+
+    &-left {
+      display: flex;
+
+      &--icon {
+        width: 40px;
+        height: 40px;
+        background: #507bfc;
+        box-shadow: 0px 10px 20px rgba(80, 123, 252, 0.5);
+        border-radius: 3px;
+        position: relative;
+
+        & svg {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+
+      &--text {
+        margin-left: 24px;
+
+        &-main,
+        &-sub {
+            display: block;
+        }
+
+        &-main {
+          font-weight: 500;
+          font-size: 1.8rem;
+          line-height: 2.1rem;
+          color: $text-color;
+        }
+
+        &-sub {
+          font-size: 1.2rem;
+          line-height: 1.4rem;
+          color: #94969a;
+        }
+      }
+    }
+  }
+}
