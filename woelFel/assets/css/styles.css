@@ -181,7 +181,13 @@ body {
   padding: 24px 24px 8px;
   box-shadow: 0px 2px 6px rgba(47, 83, 151, 0.1);
   border-radius: 3px;
-  margin-bottom: 32px; }
+  margin-bottom: 32px;
+  position: relative;
+  top: 0;
+  transition: top 0.2s; }
+  .card:hover {
+    top: -2px;
+    box-shadow: 0px 3px 8px rgba(47, 83, 151, 0.2); }
   .card__header {
     text-align: right; }
   .card__avt {
@@ -244,7 +250,12 @@ body {
   background: #ffffff;
   box-shadow: 0px 2px 6px rgba(47, 83, 151, 0.1);
   border-radius: 3px;
-  padding: 39px; }
+  padding: 39px;
+  position: relative;
+  transition: top 0.2s; }
+  .add:hover {
+    top: -2px;
+    box-shadow: 0px 3px 8px rgba(47, 83, 151, 0.2); }
   .add__header {
     font-size: 16px;
     line-height: 19px;
