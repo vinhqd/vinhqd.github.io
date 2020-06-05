@@ -1,0 +1,9 @@
+.grid {
+    width: 100%;
+    display: block;
+}
+
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}

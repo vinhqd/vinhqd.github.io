@@ -1,0 +1,62 @@
+.btn {
+  height: 26px;
+  color: #1e9ffc;
+  border: 1.5px solid #1e9ffc;
+  border-radius: 100px;
+  padding: 4px 12px;
+  font-size: 1.4rem;
+
+  &-white {
+    background-color: $white-color;
+
+    &:hover {
+      background-color: rgba($black-color, 0.05);
+    }
+  }
+
+  &-active {
+    background-color: #1e9ffc;
+    color: $white-color;
+
+    &:hover {
+      background-color: rgba(#1e9ffc, 0.9);
+    }
+  }
+
+  &-post {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: #111;
+    position: relative;
+    top: 2px;
+  }
+
+  &-repost {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: #111;
+    margin-right: 4px;
+    position: relative;
+    top: 2px;
+  }
+
+  &-send {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: #111;
+    position: relative;
+    top: 2px;
+  }
+
+  &-save {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: #111;
+    position: relative;
+    top: 2px;
+  }
+}

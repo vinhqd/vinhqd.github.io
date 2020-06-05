@@ -1,0 +1,67 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: $text-color;
+}
+
+.lotus-link {
+  animation: fadeIn 2s;
+}
+
+.icon {
+  display: inline-block;
+
+  &.lotus-logo {
+    width: 33px;
+    height: 30px;
+    fill: #cd0f32;
+    stroke: transparent;
+  }
+
+  &.lotus-text {
+    width: 68px;
+    height: 22px;
+    fill: #002d64;
+    stroke: transparent;
+    position: relative;
+    top: -4px;
+  }
+
+  &-token {
+    width: 16px;
+    height: 16px;
+    fill: none;
+    stroke: #16161f;
+  }
+
+  &-trending {
+    width: 16px;
+    height: 9px;
+    fill: #aaa;
+    stroke: transparent;
+  }
+}
+
+.menu-trending {
+  &-news,
+  &-group,
+  &-ent,
+  &-infor {
+    width: 16px;
+    height: 16px;
+    fill: #aaa;
+    stroke: transparent;
+  }
+
+}
+
+.advertisement {
+  margin-top: 30px;
+}
+
+.clearfix::after {
+  content: "abc";
+  display: block;
+  clear: both;
+}

@@ -1,0 +1,53 @@
+.option {
+    &-left {
+        margin-left: 12px;
+        font-size: 2.5rem;
+        padding-bottom: 8px;
+
+        &__icon-1,
+        &__icon-2,
+        &__icon-3 {
+            margin-right: 8px;
+        }
+
+        &__icon-1 {
+            color: #58B1FC;
+        }
+
+        &__icon-2 {
+            color: #FF5E77;
+        }
+
+        &__icon-3 {
+            color: #FFAA8A;
+        }
+    }
+
+    &-right {
+        margin-right: 12px;
+        padding-bottom: 8px;
+
+        &__btn {
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            font-weight: 100;
+
+            &--white {
+                background-color: white;
+                border:1px solid #E4E4E4;
+                color: $text-light-color; 
+
+                & i {
+                    margin-left: 4px;
+                }
+            }
+
+            &--blue {
+                background-color: #1E9FFC;
+                color: $white-color;
+                border:1px solid #1E9FFC;
+            }
+        }
+    }
+}
