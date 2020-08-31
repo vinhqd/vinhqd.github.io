@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <div class="main">
+    <div class="main__content">
+      <div class="main__content-start" id="ingame">
+        <input class="main__content--name" id="txtName" type="text" placeholder="Name">
+        <button class="main__content--btn" id="btn">Start</button>
+      </div>
+    </div>
+    <div class="main__right">
+      <h3>
+        Name:  
+        <span id="name"></span>
+      </h3>
+      <h3>
+        Score: 
+        <span id="score">0</span>
+      </h3>
+    </div>
+  </div>
+  <div class="over_game" id="over_game">
+    <h3>Game Over</h3>
+    <button class="" id="btnReset">Reset</button>
+  </div>
+
+  </body>
+  <script type="text/javascript" src="./const.js"></script>
+  <script type="text/javascript" src="./dot.js"></script>
+  <script type="text/javascript" src="./board.js"></script>
+  <script type="text/javascript" src="./brick.js"></script>
+  <script type="text/javascript" src="./game.js"></script>
+  <script type="text/javascript" src="./main.js"></script>
+</html>
